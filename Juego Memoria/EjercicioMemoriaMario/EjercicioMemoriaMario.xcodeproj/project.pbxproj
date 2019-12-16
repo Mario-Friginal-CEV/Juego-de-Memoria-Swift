@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FD38F9D2382E70000BB61ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38F9C2382E70000BB61ED /* AppDelegate.swift */; };
+		7FD38F9F2382E70000BB61ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38F9E2382E70000BB61ED /* ViewController.swift */; };
+		7FD38FA22382E70000BB61ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38FA02382E70000BB61ED /* Main.storyboard */; };
+		7FD38FA42382E70600BB61ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38FA32382E70600BB61ED /* Assets.xcassets */; };
+		7FD38FA72382E70600BB61ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD38FA52382E70600BB61ED /* LaunchScreen.storyboard */; };
+		7FD38FAF2382FE0E00BB61ED /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38FAE2382FE0E00BB61ED /* myCell.swift */; };
+		7FD38FB52383219400BB61ED /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD38FB42383219400BB61ED /* GameController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FD38F992382E6FF00BB61ED /* EjercicioMemoriaMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjercicioMemoriaMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD38F9C2382E70000BB61ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FD38F9E2382E70000BB61ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FD38FA12382E70000BB61ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD38FA32382E70600BB61ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FD38FA62382E70600BB61ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FD38FA82382E70600BB61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD38FAE2382FE0E00BB61ED /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		7FD38FB42383219400BB61ED /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD38F962382E6FF00BB61ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD38F902382E6FF00BB61ED = {
+			isa = PBXGroup;
+			children = (
+				7FD38F9B2382E6FF00BB61ED /* EjercicioMemoriaMario */,
+				7FD38F9A2382E6FF00BB61ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD38F9A2382E6FF00BB61ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38F992382E6FF00BB61ED /* EjercicioMemoriaMario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD38F9B2382E6FF00BB61ED /* EjercicioMemoriaMario */ = {
+			isa = PBXGroup;
+			children = (
+				7FD38F9C2382E70000BB61ED /* AppDelegate.swift */,
+				7FD38F9E2382E70000BB61ED /* ViewController.swift */,
+				7FD38FA02382E70000BB61ED /* Main.storyboard */,
+				7FD38FA32382E70600BB61ED /* Assets.xcassets */,
+				7FD38FA52382E70600BB61ED /* LaunchScreen.storyboard */,
+				7FD38FA82382E70600BB61ED /* Info.plist */,
+				7FD38FAE2382FE0E00BB61ED /* myCell.swift */,
+				7FD38FB42383219400BB61ED /* GameController.swift */,
+			);
+			path = EjercicioMemoriaMario;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD38F982382E6FF00BB61ED /* EjercicioMemoriaMario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD38FAB2382E70600BB61ED /* Build configuration list for PBXNativeTarget "EjercicioMemoriaMario" */;
+			buildPhases = (
+				7FD38F952382E6FF00BB61ED /* Sources */,
+				7FD38F962382E6FF00BB61ED /* Frameworks */,
+				7FD38F972382E6FF00BB61ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjercicioMemoriaMario;
+			productName = EjercicioMemoriaMario;
+			productReference = 7FD38F992382E6FF00BB61ED /* EjercicioMemoriaMario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD38F912382E6FF00BB61ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = alumnos;
+				TargetAttributes = {
+					7FD38F982382E6FF00BB61ED = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FD38F942382E6FF00BB61ED /* Build configuration list for PBXProject "EjercicioMemoriaMario" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FD38F902382E6FF00BB61ED;
+			productRefGroup = 7FD38F9A2382E6FF00BB61ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD38F982382E6FF00BB61ED /* EjercicioMemoriaMario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD38F972382E6FF00BB61ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD38FA72382E70600BB61ED /* LaunchScreen.storyboard in Resources */,
+				7FD38FA42382E70600BB61ED /* Assets.xcassets in Resources */,
+				7FD38FA22382E70000BB61ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD38F952382E6FF00BB61ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD38F9F2382E70000BB61ED /* ViewController.swift in Sources */,
+				7FD38FB52383219400BB61ED /* GameController.swift in Sources */,
+				7FD38FAF2382FE0E00BB61ED /* myCell.swift in Sources */,
+				7FD38F9D2382E70000BB61ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FD38FA02382E70000BB61ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD38FA12382E70000BB61ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD38FA52382E70600BB61ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD38FA62382E70600BB61ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD38FA92382E70600BB61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FD38FAA2382E70600BB61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD38FAC2382E70600BB61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjercicioMemoriaMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = u.EjercicioMemoriaMario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FD38FAD2382E70600BB61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EjercicioMemoriaMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = u.EjercicioMemoriaMario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD38F942382E6FF00BB61ED /* Build configuration list for PBXProject "EjercicioMemoriaMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD38FA92382E70600BB61ED /* Debug */,
+				7FD38FAA2382E70600BB61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD38FAB2382E70600BB61ED /* Build configuration list for PBXNativeTarget "EjercicioMemoriaMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD38FAC2382E70600BB61ED /* Debug */,
+				7FD38FAD2382E70600BB61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD38F912382E6FF00BB61ED /* Project object */;
+}
